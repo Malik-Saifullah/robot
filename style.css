@@ -1,0 +1,172 @@
+html,
+body {
+    margin: auto 0;
+}
+
+h1 {
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Kulim Park', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    line-height: 100px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: overline underline;
+}
+
+#android-icon {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+/*==========================
+        genaric css
+==========================*/
+#upper-part,
+#left-arm,
+#body,
+#right-arm,
+#left-leg,
+#right-leg {
+    background-color: #5f93e8;
+}
+
+/*==========================
+        upper part
+==========================*/
+#upper-part {
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+    border-radius: 200px 200px 0 0;
+    -webkit-border-radius: 200px 200px 0 0;
+    -moz-border-radius: 200px 200px 0 0;
+    -ms-border-radius: 200px 200px 0 0;
+    -o-border-radius: 200px 200px 0 0;
+    margin-bottom: 10px;
+}
+
+#upper-part:hover {
+    width: 300px;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+#left-eye,
+#right-eye {
+    display: flex;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: #fff;
+}
+
+#left-eye {
+    top: 100px;
+    left: 40px;
+}
+
+#right-eye {
+    top: 80px;
+    left: 140px;
+}
+
+/*==========================
+        meddle part
+==========================*/
+#main-body {
+    width: 300px;
+    height: 150px;
+    display: flex;
+}
+
+#left-arm,
+#right-arm {
+    width: 40px;
+    height: 125px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#left-arm {
+    margin-right: 10px;
+}
+
+#left-arm:hover {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+#right-arm {
+    margin-left: 10px;
+}
+
+#body {
+    width: 200px;
+    height: 200px;
+    border-radius: 0 0 50px 50px;
+    -webkit-border-radius: 0 0 50px 50px;
+    -moz-border-radius: 0 0 50px 50px;
+    -ms-border-radius: 0 0 50px 50px;
+    -o-border-radius: 0 0 50px 50px;
+}
+
+/*==========================
+            legs
+==========================*/
+#legs {
+    display: flex;
+    justify-content: center;
+}
+
+#left-leg,
+#right-leg {
+    width: 40px;
+    height: 130px;
+    border-radius: 0 0 100px 100px;
+    -webkit-border-radius: 0 0 100px 100px;
+    -moz-border-radius: 0 0 100px 100px;
+    -ms-border-radius: 0 0 100px 100px;
+    -o-border-radius: 0 0 100px 100px;
+}
+
+#left-leg {
+    margin-right: 15px;
+}
+
+#left-leg:hover {
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transition: .30s ease-in-out;
+    -webkit-transition: .30s ease-in-out;
+    -moz-transition: .30s ease-in-out;
+    -ms-transition: .30s ease-in-out;
+    -o-transition: .30s ease-in-out;
+}
+
+#right-leg {
+    margin-left: 15px;
+}
